@@ -1,0 +1,962 @@
+[
+  {
+    "id": "hive-001",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is Hive?",
+    "options": [
+      "A decentralized blockchain",
+      "A single company's private database",
+      "An email provider",
+      "A mining device"
+    ],
+    "answer": 0,
+    "explanation": "Hive is a blockchain used by community applications.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-002",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "How often are Hive blocks produced?",
+    "options": [
+      "About every 3 seconds",
+      "Every hour",
+      "Every day",
+      "Every 10 minutes"
+    ],
+    "answer": 0,
+    "explanation": "The documented block interval is three seconds.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-003",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does DPoS stand for?",
+    "options": [
+      "Delegated Proof of Stake",
+      "Distributed Proof of Storage",
+      "Digital Payment of Shares",
+      "Delegated Price of Savings"
+    ],
+    "answer": 0,
+    "explanation": "DPoS is Hive's consensus model.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-004",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What makes Hive account names convenient?",
+    "options": [
+      "They are human-readable",
+      "They change daily",
+      "They must be hexadecimal",
+      "They are always email addresses"
+    ],
+    "answer": 0,
+    "explanation": "Readable usernames make accounts easier to remember.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-005",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What replaces a per-transaction token fee on Hive?",
+    "options": [
+      "Resource Credits",
+      "A credit-card charge",
+      "A monthly subscription",
+      "A mining tax"
+    ],
+    "answer": 0,
+    "explanation": "Accounts use allocated resources instead of paying a token fee per transaction.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-006",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Which activity is part of the Hive ecosystem?",
+    "options": [
+      "Social networking",
+      "Only Bitcoin mining",
+      "Only email hosting",
+      "Only private banking"
+    ],
+    "answer": 0,
+    "explanation": "Social applications are a major part of Hive.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-007",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Can Hive support games as well as social apps?",
+    "options": [
+      "Yes",
+      "No, only text blogs",
+      "Only offline games",
+      "Only centrally owned games"
+    ],
+    "answer": 0,
+    "explanation": "The developer portal lists gaming alongside social applications.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-008",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does DHF stand for?",
+    "options": [
+      "Decentralized Hive Fund",
+      "Digital Hosting Fee",
+      "Daily HIVE Forecast",
+      "Delegated Hardware Fund"
+    ],
+    "answer": 0,
+    "explanation": "The DHF supports community development.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-009",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a purpose of the DHF?",
+    "options": [
+      "Funding ecosystem projects",
+      "Guaranteeing token prices",
+      "Selling private keys",
+      "Charging for every comment"
+    ],
+    "answer": 0,
+    "explanation": "Community funds help teams build on Hive.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-010",
+    "topic": "Hive basics",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does Web3 refer to in the portal's comparison?",
+    "options": [
+      "Apps built around decentralized networks",
+      "A new Wi-Fi standard",
+      "The third version of HTML",
+      "A private email protocol"
+    ],
+    "answer": 0,
+    "explanation": "Hive is an example of infrastructure used for Web3 apps.",
+    "source": "https://developers.hive.io/"
+  },
+  {
+    "id": "hive-011",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Which is the liquid native token?",
+    "options": [
+      "HIVE",
+      "HP",
+      "RC",
+      "VESTS only"
+    ],
+    "answer": 0,
+    "explanation": "HIVE is the liquid currency.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-012",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does HP mean?",
+    "options": [
+      "Hive Power",
+      "Hive Password",
+      "Hosting Plan",
+      "Hardware Proof"
+    ],
+    "answer": 0,
+    "explanation": "HP represents staked HIVE.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-013",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does powering up do?",
+    "options": [
+      "Converts HIVE into Hive Power",
+      "Deletes an account",
+      "Sends HIVE to Bitcoin",
+      "Creates a password"
+    ],
+    "answer": 0,
+    "explanation": "Powering up stakes HIVE.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-014",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does powering down do?",
+    "options": [
+      "Converts Hive Power back to liquid HIVE over time",
+      "Deletes posts",
+      "Renames an account",
+      "Erases private keys"
+    ],
+    "answer": 0,
+    "explanation": "Powering down reverses staking over a schedule.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-015",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does RC stand for?",
+    "options": [
+      "Resource Credits",
+      "Reward Coins",
+      "Recovery Code",
+      "Reblog Count"
+    ],
+    "answer": 0,
+    "explanation": "RC measures available blockchain resources.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-016",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does Hive Power provide?",
+    "options": [
+      "Influence on the platform",
+      "Guaranteed profits",
+      "Unlimited passwords",
+      "Ownership of every app"
+    ],
+    "answer": 0,
+    "explanation": "HP contributes to stake-based influence.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-017",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does HBD stand for?",
+    "options": [
+      "Hive Backed Dollar",
+      "Hive Block Data",
+      "Hosted Bitcoin Deposit",
+      "High Balance Delegation"
+    ],
+    "answer": 0,
+    "explanation": "HBD is Hive Backed Dollar.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-018",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is Hive Power delegation?",
+    "options": [
+      "Letting another account use delegated influence",
+      "Giving away your owner key",
+      "Permanently selling an account",
+      "Deleting your Hive Power"
+    ],
+    "answer": 0,
+    "explanation": "Delegation does not let the recipient spend the stake.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-019",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Does an account's activity include token transfers?",
+    "options": [
+      "Yes, along with posts and votes",
+      "No, only its profile picture",
+      "Only if it is a witness",
+      "Only on a private server"
+    ],
+    "answer": 0,
+    "explanation": "An account groups its blockchain activity.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-020",
+    "topic": "Tokens & resources",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Which action is a blockchain transaction?",
+    "options": [
+      "Transferring HIVE",
+      "Changing your monitor brightness",
+      "Opening a local photo",
+      "Turning off your phone"
+    ],
+    "answer": 0,
+    "explanation": "Transfers are on-chain operations.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-021",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What identifies a Hive account?",
+    "options": [
+      "Its unique username",
+      "Its phone model",
+      "Its screen resolution",
+      "Its browser version"
+    ],
+    "answer": 0,
+    "explanation": "Hive accounts use unique usernames.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-022",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Who can create Hive accounts?",
+    "options": [
+      "Existing users or account-creation services",
+      "Only one central bank",
+      "Only social-media advertisers",
+      "Only hardware manufacturers"
+    ],
+    "answer": 0,
+    "explanation": "Accounts are created using blockchain resources.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-023",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Where does the portal direct newcomers to find signup services?",
+    "options": [
+      "signup.hive.io",
+      "A Bitcoin mining pool",
+      "Their email spam folder",
+      "A credit-card application"
+    ],
+    "answer": 0,
+    "explanation": "The portal links to Hive signup services.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-024",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a private key used for?",
+    "options": [
+      "Authorizing actions by signing",
+      "Choosing a profile color",
+      "Measuring internet speed",
+      "Counting followers"
+    ],
+    "answer": 0,
+    "explanation": "Private keys sign actions for their assigned authority.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-025",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Should a quiz ask for your Hive private keys?",
+    "options": [
+      "No",
+      "Yes, to calculate the score",
+      "Yes, to download a PNG",
+      "Yes, to choose questions"
+    ],
+    "answer": 0,
+    "explanation": "This quiz needs no wallet access or signatures.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-026",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a wallet application's role in authentication?",
+    "options": [
+      "Helping users sign securely",
+      "Publishing every private key",
+      "Guaranteeing token prices",
+      "Choosing all witnesses for everyone"
+    ],
+    "answer": 0,
+    "explanation": "Wallet tools facilitate transaction or message signing.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-027",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Must an app receive your raw private keys to verify ownership?",
+    "options": [
+      "No, signing can verify ownership",
+      "Yes, always",
+      "Only if it uses dark mode",
+      "Only for accounts with followers"
+    ],
+    "answer": 0,
+    "explanation": "A signed message can demonstrate account control.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-028",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a Hive node?",
+    "options": [
+      "A server running Hive blockchain software",
+      "A type of profile photo",
+      "A physical coin",
+      "A post category"
+    ],
+    "answer": 0,
+    "explanation": "Nodes provide access to the network.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-029",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Can apps use public Hive API nodes?",
+    "options": [
+      "Yes",
+      "No, every app must own a server",
+      "Only for changing usernames",
+      "Only after buying an NFT"
+    ],
+    "answer": 0,
+    "explanation": "Developers may use public nodes or run their own.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-030",
+    "topic": "Accounts & safety",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a testnet for?",
+    "options": [
+      "Trying features away from the live network",
+      "Guaranteeing rewards",
+      "Storing backup passwords publicly",
+      "Buying real estate"
+    ],
+    "answer": 0,
+    "explanation": "Test networks support experimentation.",
+    "source": "https://developers.hive.io/quickstart/#accounts"
+  },
+  {
+    "id": "hive-031",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Which key is used for posting and voting?",
+    "options": [
+      "Posting key",
+      "Active key only",
+      "A public Wi-Fi password",
+      "An email verification code"
+    ],
+    "answer": 0,
+    "explanation": "The posting authority covers social actions.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-032",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Which key is used for token transfers?",
+    "options": [
+      "Active key",
+      "Posting key",
+      "A tag",
+      "A permlink"
+    ],
+    "answer": 0,
+    "explanation": "Transfers use active authority.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-033",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Which is the highest-level account authority listed?",
+    "options": [
+      "Owner",
+      "Follower",
+      "Curator",
+      "Reblogger"
+    ],
+    "answer": 0,
+    "explanation": "Owner authority can change other keys.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-034",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Should private keys be published?",
+    "options": [
+      "No",
+      "Yes, with every post",
+      "Yes, in a profile bio",
+      "Yes, as a hashtag"
+    ],
+    "answer": 0,
+    "explanation": "Private keys grant access and must stay secret.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-035",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Why are there different account authorities?",
+    "options": [
+      "To separate permissions",
+      "To create more profile pictures",
+      "To remove all security",
+      "To make every key public"
+    ],
+    "answer": 0,
+    "explanation": "Different keys authorize different actions.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-036",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is an upvote on a post?",
+    "options": [
+      "A positive content vote",
+      "A token transfer to an exchange",
+      "An account rename",
+      "A key reset"
+    ],
+    "answer": 0,
+    "explanation": "Votes influence content rewards.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-037",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a post in Hive's content structure?",
+    "options": [
+      "A top-level comment without a parent",
+      "A private key",
+      "A witness server",
+      "A token trade"
+    ],
+    "answer": 0,
+    "explanation": "Posts and replies share a content structure.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-038",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a permlink?",
+    "options": [
+      "A post or comment identifier within an author's account",
+      "A recovery password",
+      "A token price",
+      "A delegation fee"
+    ],
+    "answer": 0,
+    "explanation": "Author and permlink identify content.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-039",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is Markdown commonly used for?",
+    "options": [
+      "Formatting Hive articles",
+      "Mining HIVE",
+      "Changing token supply",
+      "Encrypting every transfer"
+    ],
+    "answer": 0,
+    "explanation": "Markdown provides plain-text formatting.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-040",
+    "topic": "Keys & permissions",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a reblog?",
+    "options": [
+      "Sharing another author's post in your blog feed",
+      "Changing the original author's keys",
+      "Buying their account",
+      "Deleting their post"
+    ],
+    "answer": 0,
+    "explanation": "Reblogging brings content to your followers.",
+    "source": "https://developers.hive.io/glossary/#chain-basics"
+  },
+  {
+    "id": "hive-041",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What do Hive witnesses help do?",
+    "options": [
+      "Sign and validate blocks",
+      "Write every user's posts",
+      "Store everyone's private keys",
+      "Guarantee investment returns"
+    ],
+    "answer": 0,
+    "explanation": "Witnesses support blockchain consensus.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-042",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "How are witness votes weighted?",
+    "options": [
+      "By account stake",
+      "By profile-picture size",
+      "By email provider",
+      "By screen brightness"
+    ],
+    "answer": 0,
+    "explanation": "Witness voting is stake-weighted.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-043",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a governance proxy?",
+    "options": [
+      "Another account entrusted with governance voting",
+      "A backup profile photo",
+      "A new token",
+      "A transaction fee"
+    ],
+    "answer": 0,
+    "explanation": "A proxy can exercise delegated governance votes.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-044",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a hardfork?",
+    "options": [
+      "A protocol consensus upgrade",
+      "A broken computer mouse",
+      "A private message",
+      "A deleted follower"
+    ],
+    "answer": 0,
+    "explanation": "Hardforks change consensus rules.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-045",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does DAO stand for?",
+    "options": [
+      "Decentralized Autonomous Organization",
+      "Daily Account Overview",
+      "Digital Advertising Office",
+      "Delegated Asset Order"
+    ],
+    "answer": 0,
+    "explanation": "The glossary uses DAO for decentralized governance.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-046",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "How are DHF funding proposals selected?",
+    "options": [
+      "Through stake-weighted voting",
+      "By random password selection",
+      "By the most profile photos",
+      "By a credit-card company"
+    ],
+    "answer": 0,
+    "explanation": "Proposal support is expressed through stake-based votes.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-047",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a curator?",
+    "options": [
+      "A user who votes to help discover and reward content",
+      "Someone who owns every account",
+      "An email administrator",
+      "A mining-chip seller"
+    ],
+    "answer": 0,
+    "explanation": "Curation helps valuable content gain attention.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-048",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What can curation earn?",
+    "options": [
+      "Curation rewards",
+      "A guaranteed salary",
+      "Other users' private keys",
+      "Permanent ownership of a post"
+    ],
+    "answer": 0,
+    "explanation": "Eligible content votes can receive curation rewards.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-049",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is the reward pool for?",
+    "options": [
+      "Distributing content rewards",
+      "Storing everyone's passwords",
+      "Paying electricity bills directly",
+      "Fixing HIVE's market price"
+    ],
+    "answer": 0,
+    "explanation": "The pool supports authors and curators.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-050",
+    "topic": "Community & governance",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What do content tags help describe?",
+    "options": [
+      "The topic of a post",
+      "The account's private key",
+      "A guaranteed payout",
+      "A witness's server password"
+    ],
+    "answer": 0,
+    "explanation": "Tags help categorize and discover content.",
+    "source": "https://developers.hive.io/glossary/#governance"
+  },
+  {
+    "id": "hive-051",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Is Hive.blog the same thing as the entire Hive blockchain?",
+    "options": [
+      "No, it is one website using Hive",
+      "Yes, it is the only possible interface",
+      "Yes, it is a private wallet key",
+      "No, it is a different cryptocurrency"
+    ],
+    "answer": 0,
+    "explanation": "Multiple websites can read and write to Hive.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-052",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Are rewards guaranteed for every post?",
+    "options": [
+      "No",
+      "Yes, always the same amount",
+      "Yes, if the title is long",
+      "Yes, if it has a photo"
+    ],
+    "answer": 0,
+    "explanation": "Rewards depend on voting and other conditions.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-053",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Can comments potentially earn rewards?",
+    "options": [
+      "Yes",
+      "No, only profile pictures can",
+      "Only if they include a password",
+      "Only if they are ads"
+    ],
+    "answer": 0,
+    "explanation": "Comments can receive votes and rewards.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-054",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Can you simply rename an existing Hive account?",
+    "options": [
+      "No",
+      "Yes, every day",
+      "Yes, by changing the profile photo",
+      "Yes, by reblogging"
+    ],
+    "answer": 0,
+    "explanation": "A new account is needed for a new username.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-055",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Should you keep secure backups of your keys?",
+    "options": [
+      "Yes",
+      "No, publish them instead",
+      "Only in a public comment",
+      "Only as a hashtag"
+    ],
+    "answer": 0,
+    "explanation": "Losing credentials can mean losing access.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-056",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Is HBD's market price guaranteed to always equal one US dollar?",
+    "options": [
+      "No",
+      "Yes, under all conditions",
+      "Only on weekends",
+      "Only for new accounts"
+    ],
+    "answer": 0,
+    "explanation": "HBD targets a dollar value, but market prices can vary.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-057",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What should you check before sending tokens?",
+    "options": [
+      "The recipient's username and amount",
+      "Their favorite color only",
+      "Your screen brightness",
+      "The length of their latest post"
+    ],
+    "answer": 0,
+    "explanation": "Check recipient details carefully before signing.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-058",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What does a pending payout show?",
+    "options": [
+      "An estimate that can change",
+      "A guaranteed bank deposit",
+      "Your private key balance",
+      "A permanent fixed prize"
+    ],
+    "answer": 0,
+    "explanation": "Displayed pending rewards are estimates.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-059",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "What is a useful community habit?",
+    "options": [
+      "Publish original content and engage thoughtfully",
+      "Copy other people's posts without credit",
+      "Share private keys in comments",
+      "Spam unrelated tags"
+    ],
+    "answer": 0,
+    "explanation": "Original contributions and connections build community.",
+    "source": "https://hive.blog/faq.html"
+  },
+  {
+    "id": "hive-060",
+    "topic": "Everyday Hive",
+    "difficulty": "beginner",
+    "type": "mcq",
+    "question": "Does a 100% upvote promise a fixed dollar amount?",
+    "options": [
+      "No",
+      "Yes, exactly one dollar",
+      "Yes, exactly ten dollars",
+      "Yes, the quiz chooses the value"
+    ],
+    "answer": 0,
+    "explanation": "Vote value depends on stake, mana, and reward conditions.",
+    "source": "https://hive.blog/faq.html"
+  }
+]
