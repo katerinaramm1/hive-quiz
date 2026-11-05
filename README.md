@@ -1,6 +1,6 @@
 # Hive Quiz — Learn. Play. Share.
 
-A buildless, browser-only Hive knowledge quiz. 60 original beginner questions, 25/50 question rounds, shuffled questions and answers, immediate or end-of-quiz feedback, source-linked review, topic breakdown, missed-question practice, and downloadable square/wide PNG scorecards. Official Hive assets from https://hive.io/brand/.
+A buildless, browser-only Hive knowledge quiz. 60 original beginner questions, 10/25/50 question rounds, shuffled questions and answers, immediate or end-of-quiz feedback, source-linked review, topic breakdown, missed-question practice, and downloadable square/wide PNG scorecards. Official Hive assets from https://hive.io/brand/.
 
 ## GitHub Pages
 
@@ -21,6 +21,10 @@ The quiz does not post, validate identities, verify scores, or cast upvotes. Res
 ## GoatCounter
 
 GoatCounter is configured with `https://hive-quiz.goatcounter.com/count` using the async script at `//gc.zgo.at/count.js`. The footer discloses visit analytics. The optional name, quiz answers, and scores are not included in the analytics configuration.
+
+## Display and downloads
+
+The default layout shows all questions vertically on one page. One-question mode remains available. Both result images include the completion date and player name. The knowledge snapshot can be downloaded separately. Footer total views use GoatCounter’s public TOTAL counter. Enable “Allow adding visitor counts on your website” in GoatCounter settings; counts can be cached for up to four hours. To count every page load rather than grouped visits, disable Sessions under GoatCounter Settings → Data collection. The footer shows an unavailable message if counting is blocked or disabled.
 
 ## Question bank
 
